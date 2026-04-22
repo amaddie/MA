@@ -1,0 +1,10 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store

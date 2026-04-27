@@ -1,8 +1,5 @@
-/* NOTE: This starter is intentionally imperfect for Project 3.
-   Students should improve naming consistency, spacing system, and state handling. */
-
 :root{
-  --space-1: 8px; /* slightly odd on purpose */
+  --space-1: 8px; 
   --space-2: 12px;
   --space-3: 18px;
   --space-4: 24px;
@@ -37,7 +34,7 @@ a{ color: inherit; }
   position: sticky;
   z-index: 5;
   top: 0;
-  background: #181d2780; /* 80 = 50% opacity */
+  background: #181d2780; 
   backdrop-filter: blur(8px);
   border-bottom: var(--border);
   padding: 12px;
@@ -73,7 +70,7 @@ a{ color: inherit; }
   padding: 10px 12px;
   border-radius: 999px;
   border: var(--border);
-  background: #f45d01; /* 80 = 50% opacity */
+  background: #f45d01; 
   color: #FFFAFB;
   box-shadow: var(--shadow);
   cursor:pointer;
@@ -100,7 +97,7 @@ a{ color: inherit; }
 }
 .nav--closed{ 
   display:none;
-} /* simplistic on purpose */
+}
 
 .nav__link{
   text-decoration:none;
@@ -230,7 +227,7 @@ a{ color: inherit; }
   padding: var(--space-2); 
 }
 
-.panel--closed{ display:none; } /* simplistic on purpose */
+.panel--closed{ display:none; } 
 .panel__title{ margin: 0 0 8px; font-size: 14px; }
 .list{ margin: 0; padding-left: 18px; }
 
@@ -240,7 +237,7 @@ a{ color: inherit; }
 
 .flip--back { 
   display:none; 
-} /* simplistic; state toggled via JS */
+} 
 
 .flip__inner{ padding: var(--space-2); }
 .flip__title{ margin: 0 0 8px; font-size: 14px; }

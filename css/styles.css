@@ -85,7 +85,7 @@ a{ color: inherit; }
   content:"";
   position:absolute;
   left:0; right:0;
-  top: 3px;
+  top: 2px;
   border-top: 2px solid #FFFAFB;
 }
 .nav{

@@ -303,6 +303,10 @@ a{ color: inherit; }
   border: var(--border);
 }
 
+select.form_input {
+  height: 32px;
+}
+
 .form__hint { 
   font-size: 12px; 
   opacity: .75; 

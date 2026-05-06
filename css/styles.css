@@ -245,9 +245,18 @@ a{ color: inherit; }
   display:none; 
 } 
 
-.flip__inner{ padding: var(--space-2); }
-.flip__title{ margin: 0 0 8px; font-size: 14px; }
-.flip__text{ margin: 0; }
+.flip__inner { 
+  padding: var(--space-2); 
+}
+
+.flip__title { 
+  margin: 0 0 8px; 
+  font-size: 14px; 
+}
+
+.flip__text { 
+  margin: 0; 
+}
 
 .faq { 
   display:grid; 
@@ -288,7 +297,7 @@ a{ color: inherit; }
 
 .form__input {
   width:100%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
   border-color: #60749e;
   border: var(--border);
